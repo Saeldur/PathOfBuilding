@@ -6322,7 +6322,7 @@ skills["ExplosiveConcoctionAltX"] = {
 		},
 	},
 	constantStats = {
-		{ "additional_base_critical_strike_chance", 800 },
+		{ "additional_base_critical_strike_chance", 1000 },
 		{ "flask_throw_charges_used_per_projectile", 1 },
 		{ "active_skill_base_area_of_effect_radius", 18 },
 	},

@@ -1963,6 +1963,6 @@ skills["AnimateGuardianSmite"] = {
 		"visual_hit_effect_elemental_is_holy",
 	},
 	levels = {
-		[1] = { damageEffectiveness = 2.5, baseMultiplier = 2.5, levelRequirement = 1, },
+		[1] = { damageEffectiveness = 3.25, baseMultiplier = 3.25, levelRequirement = 1, },
 	},
 }

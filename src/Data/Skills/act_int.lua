@@ -4437,10 +4437,10 @@ skills["DivineTempestAltX"] = {
 	},
 	constantStats = {
 		{ "skill_physical_damage_%_to_convert_to_lightning", 50 },
-		{ "divine_tempest_hit_damage_+%_final_per_stage", 100 },
-		{ "divine_tempest_ailment_damage_+%_final_per_stage", 60 },
+		{ "divine_tempest_hit_damage_+%_final_per_stage", 120 },
+		{ "divine_tempest_ailment_damage_+%_final_per_stage", 80 },
 		{ "shock_art_variation", 2 },
-		{ "active_skill_area_of_effect_+%_final", -30 },
+		{ "active_skill_area_of_effect_+%_final", -20 },
 	},
 	stats = {
 		"spell_minimum_base_physical_damage",

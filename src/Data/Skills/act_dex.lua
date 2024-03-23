@@ -9517,7 +9517,7 @@ skills["LightningArrowAltX"] = {
 	constantStats = {
 		{ "skill_physical_damage_%_to_convert_to_lightning", 50 },
 		{ "lightning_arrow_stack_limit", 10 },
-		{ "lightning_arrow_alt_additional_strikes", 3 },
+		{ "lightning_arrow_alt_additional_strikes", 4 },
 		{ "lightning_arrow_alt_strike_frequency_ms", 500 },
 	},
 	stats = {

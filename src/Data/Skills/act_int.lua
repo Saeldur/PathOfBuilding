@@ -5754,7 +5754,7 @@ skills["FirestormAltY"] = {
 	constantStats = {
 		{ "fire_storm_fireball_delay_ms", 150 },
 		{ "skill_override_pvp_scaling_time_ms", 450 },
-		{ "firestorm_max_number_of_storms", 8 },
+		{ "firestorm_max_number_of_storms", 10 },
 		{ "base_skill_effect_duration", 2000 },
 		{ "active_skill_base_area_of_effect_radius", 12 },
 	},

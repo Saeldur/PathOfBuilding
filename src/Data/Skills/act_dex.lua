@@ -1875,7 +1875,7 @@ skills["ChargedAttackAltX"] = {
 	},
 	qualityStats = {
 		Default = {
-			{ "blade_flurry_critical_strike_chance_per_stage_+%_final", 0.25 },
+			{ "blade_flurry_critical_strike_chance_per_stage_+%_final", 0.35 },
 		},
 	},
 	constantStats = {

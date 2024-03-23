@@ -8238,7 +8238,7 @@ skills["GalvanicFieldAltX"] = {
 		{ "base_chance_to_shock_%_from_skill", 20 },
 		{ "galvanic_field_maximum_number_of_spheres", 1 },
 		{ "galvanic_field_retargeting_delay_ms", 800 },
-		{ "base_galvanic_field_beam_delay_ms", 400 },
+		{ "base_galvanic_field_beam_delay_ms", 300 },
 	},
 	stats = {
 		"spell_minimum_base_lightning_damage",

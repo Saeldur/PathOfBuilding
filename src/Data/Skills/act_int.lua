@@ -17979,7 +17979,7 @@ skills["BlackHoleAltX"] = {
 	},
 	constantStats = {
 		{ "skill_physical_damage_%_to_convert_to_chaos", 40 },
-		{ "base_blackhole_tick_rate_ms", 400 },
+		{ "base_blackhole_tick_rate_ms", 300 },
 		{ "base_skill_effect_duration", 2000 },
 		{ "active_skill_base_area_of_effect_radius", 22 },
 	},

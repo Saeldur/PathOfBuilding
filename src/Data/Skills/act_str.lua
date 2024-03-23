@@ -141,7 +141,7 @@ skills["AbsolutionAltX"] = {
 		{ "display_minion_monster_type", 19 },
 		{ "base_skill_effect_duration", 1000 },
 		{ "max_number_of_vaal_absolution_sentinels", 1 },
-		{ "active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value", 200 },
+		{ "active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value", 250 },
 	},
 	stats = {
 		"spell_minimum_base_physical_damage",

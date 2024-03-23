@@ -10789,7 +10789,7 @@ skills["LightningTowerTrapAltY"] = {
 	constantStats = {
 		{ "base_trap_duration", 4000 },
 		{ "base_skill_effect_duration", 3500 },
-		{ "lightning_tower_trap_number_of_beams", 6 },
+		{ "lightning_tower_trap_number_of_beams", 8 },
 	},
 	stats = {
 		"spell_minimum_base_lightning_damage",

@@ -11793,7 +11793,7 @@ return {
 							[2]="#"
 						}
 					},
-					text="Supported Skills have base Mana Cost equal to {0}% of Unreserved Maximum Mana, if that value is higher\nSupported Skills gain Added Lightning Damage equal to {1}% of Mana Cost, if Mana Cost is not higher than the maximum you could spend"
+					text="Supported Skills gain Mana Cost equal to {0}% of Unreserved Maximum Mana\nSupported Skills gain Added Lightning Damage equal to {1}% of Unreserved Mana"
 				},
 				[2]={
 					[1]={
@@ -11816,7 +11816,7 @@ return {
 		},
 		stats={
 			[1]="manaweave_cost_equals_%_unreserved_mana",
-			[2]="manaweave_added_lightning_damage_%_cost_if_payable"
+			[2]="manaweave_added_lightning_damage_%"
 		}
 	},
 	[406]={

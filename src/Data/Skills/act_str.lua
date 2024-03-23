@@ -5968,7 +5968,7 @@ skills["IceCrashAltX"] = {
 	},
 	constantStats = {
 		{ "skill_physical_damage_%_to_convert_to_cold", 100 },
-		{ "active_skill_main_hand_weapon_damage_+%_final", 50 },
+		{ "active_skill_main_hand_weapon_damage_+%_final", 80 },
 		{ "active_skill_base_area_of_effect_radius", 11 },
 		{ "active_skill_base_secondary_area_of_effect_radius", 31 },
 		{ "active_skill_area_of_effect_description_mode", 3 },

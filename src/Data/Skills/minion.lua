@@ -1919,10 +1919,10 @@ skills["SumonRagingSpiritMelee"] = {
 		"active_skill_damage_+%_final",
 	},
 	levels = {
-		[1] = { 0, levelRequirement = 1, statInterpolation = { 2, }, },
-		[2] = { 0, levelRequirement = 4, statInterpolation = { 2, }, },
-		[3] = { 1, levelRequirement = 5, statInterpolation = { 2, }, },
-		[4] = { 45, levelRequirement = 84, statInterpolation = { 2, }, },
+		[1] = { 0, levelRequirement = 1, statInterpolation = { 1, }, },
+		[2] = { 0, levelRequirement = 4, statInterpolation = { 1, }, },
+		[3] = { 0, levelRequirement = 5, statInterpolation = { 1, }, },
+		[4] = { 0, levelRequirement = 84, statInterpolation = { 1, }, },
 	},
 }
 skills["AnimateGuardianSmite"] = {

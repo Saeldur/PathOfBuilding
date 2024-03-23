@@ -14834,7 +14834,7 @@ skills["BoneLance"] = {
 	},
 	qualityStats = {
 		Default = {
-			{ "maximum_life_+%_for_corpses_you_create", 1.5 },
+			{ "maximum_life_+%_for_corpses_you_create", 1 },
 		},
 	},
 	constantStats = {

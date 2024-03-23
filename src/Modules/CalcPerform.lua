@@ -584,8 +584,9 @@ local function doActorMisc(env, actor)
 			modDB:NewMod("AreaOfEffect", "INC", effect, "Fanaticism", ModFlag.Cast)
 		end
 		if modDB:Flag(nil, "UnholyMight") then
-			local effect = m_floor(30 * (1 + modDB:Sum("INC", nil, "BuffEffectOnSelf") / 100))
-			modDB:NewMod("PhysicalDamageGainAsChaos", "BASE", effect, "Unholy Might")
+			local effect = m_floor(100 * (1 + modDB:Sum("INC", nil, "BuffEffectOnSelf") / 100))
+			modDB:NewMod("Condition:CanWither", "FLAG", true, "Unholy Might")
+			modDB:NewMod("PhysicalDamageConvertToChaos", "BASE", effect, "Unholy Might")
 		end
 		if modDB:Flag(nil, "Tailwind") then
 			local effect = m_floor(8 * (1 + modDB:Sum("INC", nil, "TailwindEffectOnSelf", "BuffEffectOnSelf") / 100))

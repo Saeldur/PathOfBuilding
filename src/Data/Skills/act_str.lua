@@ -2997,7 +2997,7 @@ skills["DominatingBlowAltX"] = {
 		{ "base_secondary_skill_effect_duration", 20000 },
 		{ "dominating_blow_chance_to_summon_on_hitting_unqiue_%", 25 },
 		{ "max_number_of_vaal_dominated_monsters", 3 },
-		{ "active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value", 200 },
+		{ "active_skill_additive_minion_damage_modifiers_apply_to_all_damage_at_%_value", 250 },
 	},
 	stats = {
 		"is_dominated",

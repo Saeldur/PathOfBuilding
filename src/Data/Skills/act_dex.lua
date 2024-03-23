@@ -7162,7 +7162,7 @@ skills["FlickerStrikeAltX"] = {
 	constantStats = {
 		{ "flicker_strike_buff_movement_speed_+%", 20 },
 		{ "base_skill_effect_duration", 3000 },
-		{ "critical_strike_chance_+%_per_power_charge", 30 },
+		{ "critical_strike_chance_+%_per_power_charge", 50 },
 		{ "add_power_charge_on_critical_strike_%", 30 },
 	},
 	stats = {

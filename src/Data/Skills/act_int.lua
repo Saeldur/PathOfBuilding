@@ -15360,12 +15360,12 @@ skills["ConduitSigilAltX"] = {
 	name = "Storm Brand of Indecision",
 	baseTypeName = "Storm Brand of Indecision",
 	color = 3,
-	baseEffectiveness = 1.0349999666214,
+	baseEffectiveness = 0.77700434812,
 	incrementalEffectiveness = 0.040399998426437,
 	description = "Creates a magical brand which can attach to a nearby enemy. It periodically activates while attached, firing a beam which deals damage to the branded enemy and those around it. The brand will detach if the enemy dies.",
 	skillTypes = { [SkillType.Spell] = true, [SkillType.Damage] = true, [SkillType.Area] = true, [SkillType.Lightning] = true, [SkillType.Chains] = true, [SkillType.Duration] = true, [SkillType.Totemable] = true, [SkillType.Trappable] = true, [SkillType.Mineable] = true, [SkillType.Triggerable] = true, [SkillType.Multicastable] = true, [SkillType.Brand] = true, [SkillType.AreaSpell] = true, },
 	statDescriptionScope = "brand_skill_stat_descriptions",
-	castTime = 0.35,
+	castTime = 0.75,
 	preDamageFunc = function(activeSkill, output)
 		activeSkill.skillData.hitTimeOverride = activeSkill.skillData.repeatFrequency / (1 + activeSkill.skillModList:Sum("INC", activeSkill.skillCfg, "Speed", "BrandActivationFrequency") / 100) / activeSkill.skillModList:More(activeSkill.skillCfg, "BrandActivationFrequency")
 	end,
@@ -15385,7 +15385,7 @@ skills["ConduitSigilAltX"] = {
 	},
 	qualityStats = {
 		Default = {
-			{ "sigil_attached_target_hit_damage_+%_final", 1 },
+			{ "sigil_attached_target_hit_damage_+%_final", 0.5 },
 		},
 	},
 	constantStats = {

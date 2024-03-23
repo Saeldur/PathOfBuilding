@@ -6307,7 +6307,7 @@ skills["FlameWhipAltX"] = {
 	},
 	constantStats = {
 		{ "base_skill_effect_duration", 4000 },
-		{ "flame_surge_burning_ground_on_ignite_damage_%", 25 },
+		{ "flame_surge_burning_ground_on_ignite_damage_%", 35 },
 		{ "base_chance_to_ignite_%", 25 },
 	},
 	stats = {
